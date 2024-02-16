@@ -4,5 +4,11 @@
     max-width: 100%;
     overflow-x: hidden;
     position: relative;
-    display: block;
+}
+
+html{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #5d2d1e;
 }

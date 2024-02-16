@@ -1,0 +1,54 @@
+:root{
+    --color-brown: #5d2d1e;
+    --color-blush: #f2ddd8;
+    --color-blue: #0386ab;
+    --color-green: #8d9c4b;
+    --color-gray: #727e86;
+}
+
+
+*{
+    font-family: "Libre Baskerville";
+}
+
+body{
+    background-color: var(--color-brown);
+    max-width: 1600px;
+}
+
+header{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    left: 1rem;
+    top: 3rem;
+    max-width: 45%;
+    display: flex;
+    text-align: center;
+}
+
+.hero-text{
+    font-size: 1.1em;
+    -webkit-text-stroke: 1px var(--color-brown);
+    color: var(--color-blush);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 600px){
+    
+}
+@media(min-width: 768px){
+    
+}
