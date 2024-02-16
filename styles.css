@@ -47,6 +47,24 @@ section{
     max-width: 800px;
 }
 
+.imageLine{
+    visibility: hidden;
+    display: flex;
+}
+
+.imageFrame{
+    padding: .7rem;
+    width: 16.6%;
+}
+
+.green{
+    background-color: var(--color-green);
+}
+
+.gray{
+    background-color: var(--color-gray);
+}
+
 
 
 
@@ -61,7 +79,15 @@ section{
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
+    
 }
 @media(min-width: 768px){
-    
+    .imageLine{
+        visibility: visible;
+    }
+}
+@media(min-width: 992px){
+    .imageFrame{
+        padding: 1rem;
+    }
 }
