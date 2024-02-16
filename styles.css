@@ -1,5 +1,5 @@
 :root{
-    --color-brown: #5d2d1e;
+    --color-brown: #34170f;
     --color-blush: #f2ddd8;
     --color-blue: #0386ab;
     --color-green: #8d9c4b;
@@ -14,6 +14,9 @@
 body{
     background-color: var(--color-brown);
     max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
@@ -35,7 +38,14 @@ header{
     color: var(--color-blush);
 }
 
-
+section{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--color-blush);
+    max-width: 800px;
+}
 
 
 
@@ -47,7 +57,10 @@ header{
 
 
 @media(min-width: 600px){
-    
+    section{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
 }
 @media(min-width: 768px){
     
